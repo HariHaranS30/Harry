@@ -1,4 +1,5 @@
-import java util.*;
+import java.util.*;
+import java.lang.*;
 class main
 {
  public static void main(String args[])
@@ -7,10 +8,10 @@ class main
   Scanner in = new Scanner(System.in);
   no = nextInt();
   if(no>0)
-   System.out.println("POSITIVE");
+   System.out.println("Positive");
   else if(no<0)
-   System.out.println("NEGATIVE");
+   System.out.println("Negative");
   else if(no==0)
-   System.out.println("ZERO");
+   System.out.println("Zero");
  }
  }
