@@ -6,7 +6,7 @@ class main
  {
   int no;
   Scanner in = new Scanner(System.in);
-  no = nextInt();
+  no = in.nextInt();
   if(no>0)
    System.out.println("Positive");
   else if(no<0)
