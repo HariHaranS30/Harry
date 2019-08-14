@@ -1,6 +1,6 @@
 import java.util.*;
 import java.lang.*;
-class main
+class positivenegative
 {
  public static void main(String args[])
  {
