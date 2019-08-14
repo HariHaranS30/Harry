@@ -7,7 +7,9 @@ public class countofdigits
   int no,count=0;
   Scanner in = new Scanner(System.in);
   no = in.nextInt();
-  for(; num!=0; num/=10; count++)
+  for(; num!=0; num/=10,count++)
+  {
+  }
   System.out.println(count);
  }
  }
