@@ -1,6 +1,6 @@
 import java.util.*;
 import java.lang.*;
-public class primeinterva
+public class primeinterval
 {
  public static void main(String args[])
  {
