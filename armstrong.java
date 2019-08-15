@@ -10,7 +10,7 @@ public class armstrong
     temp = n;
    while(temp!=0)
    {
-     rem%=10;
+     rem=no%10;
      sum+=(rem*rem*rem);
      temp/=10;
     }
