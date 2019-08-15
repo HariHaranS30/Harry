@@ -16,7 +16,7 @@ public class primeinterva
        temp = temp+1;
     }
     if(temp==0)
-     System.out.println(i+" ");
+     System.out.print(i+" ");
     else 
      temp=0;
    }
