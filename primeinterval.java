@@ -8,7 +8,7 @@ public class primeinterva
    Scanner in = new Scanner(System.in);
    no1 = in.nextInt();
    no2 = in.nextInt();
-   for(int 1=no1+1;i<no2;i++)
+   for(int i=no1+1;i<no2;i++)
    {
     for(int j=2;j<i-1;j++)
     {
