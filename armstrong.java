@@ -4,18 +4,19 @@ public class armstrong
 {
   public static void main(String args[])
   {
-   int n,rem,sum=0;
+   int n,rem,sum=0,temp;
    Scanner in = new Scanner(System.in);
    n = in.nextInt();
-   while(n!=0)
+    temp = n;
+   while(temp!=0)
    {
      rem%=10;
      sum+=(rem*rem*rem);
-     n/=10;
+     temp/=10;
     }
     if(sum==n)
-    System.out.prinln("yes");
+    System.out.println("yes");
     else
-    System.out.prinln("no");
+    System.out.println("no");
    }
   }
