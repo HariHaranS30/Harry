@@ -1,6 +1,6 @@
 import java.util.*;
 import java.lang.*;
-class armstrongs
+public class armstrongs
 {
  public static void main(String args[])
  {
