@@ -11,7 +11,7 @@ public class odd
    for(int i=no1+1;i<no2;i++)
    {
     if(i%2!=0)
-     System.out.print(i);
+     System.out.print(i+" ");
    }
   }
   }
