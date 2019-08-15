@@ -4,7 +4,7 @@ public class primeinterval
 {
  public static void main(String args[])
  {
-   int no1,no2,temp=-0;
+   int no1,no2,temp=0;
    Scanner in = new Scanner(System.in);
    no1 = in.nextInt();
    no2 = in.nextInt();
