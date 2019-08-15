@@ -10,7 +10,7 @@ public class even
    no2 = in.nextInt();
    for(int i=no1+1;i<no2;i++)
    {
-    if(i%2=0)
+    if(i%2==0)
      System.out.print(i+" ");
    }
   }
