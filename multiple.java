@@ -7,9 +7,9 @@ public class multiple
   int n;
   Scanner in = new Scanner(System.in);
   n = in.nextInt();
-  for(i=1;i<=5;i++)
+  for(int i=1;i<=5;i++)
   {
-   System.out.print(n*1+" ");
+   System.out.print(n*i+" ");
    }
    }
    }
