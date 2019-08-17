@@ -2,7 +2,7 @@ import java.lang.*;
 import java.util.*;
 public class arraysort
 {
- public static void main[String args[])
+ public static void main(String args[])
  {
   int n;
   Scanner in = new Scanner(System.in);
