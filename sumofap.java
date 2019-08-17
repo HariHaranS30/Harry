@@ -4,11 +4,11 @@ public class sumofap
 {
  public static void main(String args[])
  {
-  double n,a,d,sum;
+  int n,a,d,sum;
   Scanner in = new Scanner(System.in);
-  n = in.nextDouble();
-  a = in.nextDouble();
-  d = in.nextDouble();
+  n = in.nextInt();
+  a = in.nextInt();
+  d = in.nextInt();
   sum = (n/2)*(2*a+(n-1)*d);
   System.out.println(sum);
   }
