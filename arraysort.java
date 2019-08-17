@@ -15,7 +15,7 @@ public class arraysort
    Arrays.sort(a);
    for(int i=0;i<n;i++)
    {
-    System.out.println(a[i]);
+    System.out.print(a[i]+" ");
     }
    }
 }
