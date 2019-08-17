@@ -16,7 +16,7 @@ public class arraymax
   for(int j=0;j<n;j++)
   { 
    if(arr[j]>max)
-   max = a[j];
+   max = arr[j];
   }
    System.out.println(max);
  }
